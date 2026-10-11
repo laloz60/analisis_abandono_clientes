@@ -1,7 +1,9 @@
 ipython
 jupyterlab
 matplotlib
+mlflow
 mkdocs
+nbautoexport
 notebook
 numpy
 pandas
@@ -9,4 +11,5 @@ pip
 python-dotenv
 ruff
 scikit-learn
+seaborn
 -e .

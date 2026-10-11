@@ -9,7 +9,6 @@ Modelo base para predicción de abandono de clientes (Telco Churn): EDA, limpiez
 ## Project Organization
 
 ```
-├── LICENSE            <- Open-source license if one is chosen
 ├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
 ├── README.md          <- The top-level README for developers using this project.
 ├── data
@@ -37,8 +36,6 @@ Modelo base para predicción de abandono de clientes (Telco Churn): EDA, limpiez
 ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
 │                         generated with `pip freeze > requirements.txt`
 │
-├── setup.cfg          <- Configuration file for flake8
-│
 └── experimentacion_mlflow_abandono_clientes   <- Source code for use in this project.
     │
     ├── __init__.py             <- Makes experimentacion_mlflow_abandono_clientes a Python module
@@ -53,8 +50,6 @@ Modelo base para predicción de abandono de clientes (Telco Churn): EDA, limpiez
     │   ├── __init__.py 
     │   ├── predict.py          <- Code to run model inference with trained models          
     │   └── train.py            <- Code to train models
-    │
-    └── plots.py                <- Code to create visualizations
 ```
 
 --------
