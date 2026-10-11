@@ -56,6 +56,16 @@ create_environment:
 # PROJECT RULES                                                                 #
 #################################################################################
 
+## Open Jupyter notebooks from the notebooks/ folder
+.PHONY: notebook
+notebook:
+	jupyter notebook notebooks
+
+## Train the baseline model and log the run to MLflow
+.PHONY: train
+train:
+	$(PYTHON_INTERPRETER) -m experimentacion_mlflow_abandono_clientes.modeling.train
+
 
 
 #################################################################################
